@@ -1,0 +1,25 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.child {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 200px;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(39, 40, 41);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(45, 46, 48);
+}
